@@ -55,7 +55,7 @@ Migrating from an SSRS (SharePoint-integrated mode) to Power BI Report Server is
 
 ![](media/migrate-report-server/migrate-from-ssrs-sharepoint.png "Migrate from SSRS SharePoint-integrated mode to Power BI Report Server")
 
-You will need to migrate the specific report server content from SharePoint to your Power BI Report Server. This assumes you have already installed Power BI Report Server somehwere in your environment. For more information on installing Power BI Report Server, see [Install Power BI Report Server](install-report-server.md).
+You will need to migrate the specific report server content from SharePoint to your Power BI Report Server. This assumes you have already installed Power BI Report Server somewhere in your environment. For more information on installing Power BI Report Server, see [Install Power BI Report Server](install-report-server.md).
 
 If you want to copy the report server content from your SharePoint environment to Power BI Report Server, you will need to use tools such as **rs.exe** to copy the content. Below is a sample of what the script would be to copy report server content from SharePoint to Power BI Report Server.
 
@@ -76,7 +76,7 @@ rs.exe
 -v tu="Domain\User" -v tp="Password"
 ```
 
-## Migrateing from one Power BI Report Server to another
+## Migrating from one Power BI Report Server to another
 Migrating from one Power BI Reprot Server is the same process as migrating from SSRS (Native-mode).
 
 ![](media/migrate-report-server/migrate-from-pbirs.png "Migrate from Power BI Report Server to Power BI Report Server")
